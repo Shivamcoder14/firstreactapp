@@ -7,14 +7,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+.form {
+  background-color: #305399;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +18,43 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.form-bg{
+  border-radius: 12px;
+  background-color: seagreen;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-text{
+  padding:10px;
+}
+.form-text>input{
+  border-radius: 7px;
+}
+.btn{
+  border-radius: 10px;
 
-.App-link {
-  color: #61dafb;
+}
+.btn:hover{
+  background-color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.para-box{
+  background-color: rgb(61, 202, 202);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 15px;
+  padding: 5px;
 }
+.para-style{
+padding:5px;
+color: rgb(240, 11, 11);
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
